@@ -1,11 +1,10 @@
 # Affan Shaikh
 
 ```text
-   ___    ____  ________  __
-  /   |  / __ \/ ____/ / / /
- / /| | / /_/ / /   / /_/ /
-/ ___ |/ _, _/ /___/ __  /
-/_/  |_/_/ |_|\____/_/ /_/
++--------------------------------------+
+|               ARCHTECH               |
+|   privacy-first community platform   |
++--------------------------------------+
 ```
 
 ```console
@@ -16,23 +15,23 @@ $ cat focus.txt
 Networking | Cybersecurity | Full-stack development
 
 $ cat current-build.txt
-ARCH
+ARCHTECH
 Status: work in progress
 Mode: private while under development
 Goal: a privacy-focused community platform
 ```
 
-![Status](https://img.shields.io/badge/ARCH-WORK_IN_PROGRESS-F59E0B?style=for-the-badge)
+![Status](https://img.shields.io/badge/ARCHTECH-WORK_IN_PROGRESS-F59E0B?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/FOCUS-PRIVACY_FIRST-7C3AED?style=for-the-badge)
 
 ## ./projects
 
 ```console
 $ ls projects/
-arch/  password-manager/  network-labs/  event-planner/
+archtech/  password-manager/  network-labs/  event-planner/
 ```
 
-- **Arch:** secure messaging, publishing, moderation, access control, and community tools
+- **Archtech:** secure messaging, publishing, moderation, access control, and community tools
 - **Password Manager:** Python CLI with password generation, validation, and encrypted storage
 - **Network Labs:** VLANs, trunking, DHCP, STP, inter-VLAN routing, and Cisco IOS routing practice
 - **Event Planner:** Node.js tool for adding, editing, and removing events
