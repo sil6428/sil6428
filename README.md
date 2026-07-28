@@ -4,7 +4,7 @@ I build web products with a focus on privacy, clear interfaces, and reliable dep
 
 ## What I'm working on
 
-- Developing an unreleased community platform in private repositories
+- Building Arch, a work-in-progress privacy-focused community platform
 - Building secure messaging, role-based access, content publishing, moderation, and program tools
 - Learning through staged releases, automated tests, and live deployments
 
