@@ -80,7 +80,7 @@ I built the public website for SSIK, an IT consulting business whose consulting 
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=sil6428&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&number_format=long&cache_seconds=21600" alt="Affan's all-time GitHub statistics" />
+<img width="49%" src="./profile/stats.svg" alt="Affan's all-time GitHub statistics" />
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sil6428&layout=compact&theme=tokyonight&hide_border=true" alt="Affan's most used public languages" />
 
 <img width="70%" src="https://streak-stats.demolab.com?user=sil6428&theme=tokyonight&hide_border=true" alt="Affan's GitHub contribution streak" />
