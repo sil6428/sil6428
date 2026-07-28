@@ -1,16 +1,29 @@
-### Hi there 👋
+# Hi, I'm Affan
 
-<!--
-**sil6428/sil6428** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build web products with a focus on privacy, clear interfaces, and reliable deployment.
 
-Here are some ideas to get you started:
+## What I'm working on
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Developing an unreleased community platform in private repositories
+- Building secure messaging, role-based access, content publishing, moderation, and program tools
+- Learning through staged releases, automated tests, and live deployments
+
+## Tools
+
+`TypeScript` `React` `Next.js` `Cloudflare Workers` `D1` `KV` `JavaScript` `HTML` `CSS` `Git`
+
+## Public work
+
+- [SSIK Website](https://github.com/sil6428/SSIK-website), an HTML website project
+- [Portfolio](https://github.com/sil6428/Portfolio.github.io), a personal GitHub Pages project
+
+## How I work
+
+- Break large projects into small, testable releases
+- Test what users see, not only what the server reports
+- Treat privacy and access control as core requirements
+- Document changes so each version is easy to understand
+
+## Current interests
+
+Privacy-focused software, community technology, full-stack development, and hackathons.
