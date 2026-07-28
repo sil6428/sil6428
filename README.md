@@ -73,7 +73,6 @@ A privacy-focused community platform. It stays private while I build secure mess
 
 <div align="center">
 
-`learning in public. building the important parts in private.`
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:2563EB,100:7C3AED&height=110&section=footer)
 
