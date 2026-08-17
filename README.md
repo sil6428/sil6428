@@ -2,19 +2,19 @@
 
 ![Affan Shaikh](https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:2563EB,100:06B6D4&height=190&section=header&text=Affan%20Shaikh&fontSize=42&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Networking%20%7C%20Cybersecurity%20%7C%20Builder&descAlignY=58&descSize=17)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=800&lines=Networking+%26+Cybersecurity+Student;Building+Archtech;Deploying+on+Cloudflare+Workers;Learning+by+shipping)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=800&lines=Networking+%26+Cybersecurity+Student;Running+Google+Workspace+for+a+nonprofit;Hosting+and+coordinating+a+website+build;Learning+by+shipping)](https://git.io/typing-svg)
 
 [![Portfolio](https://img.shields.io/badge/VIEW_PORTFOLIO-06B6D4?style=for-the-badge)](https://affan-shaikh-portfolio.sil6428-archtech.workers.dev)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sil6428)
-![Archtech status](https://img.shields.io/badge/ARCHTECH-WORK_IN_PROGRESS-F59E0B?style=for-the-badge)
+![Nonprofit technology operations](https://img.shields.io/badge/NONPROFIT_TECH_OPS-ACTIVE-F59E0B?style=for-the-badge)
 
 </div>
 
 ## Building now
 
-### Archtech
+### Archtech nonprofit technology operations
 
-A privacy-focused community platform in active development. I am working on secure messaging, publishing, moderation, access control, and community tools. The project is unreleased, so only public-safe details appear in my portfolio.
+I set up Google Workspace for a developing nonprofit and coordinate the team currently building its website. My main responsibility is the site&apos;s hosting and deployment workflow. I contribute to development as part of the team, but infrastructure and web operations are my primary focus. The source repository and internal work remain private.
 
 ### Personal portfolio
 
@@ -23,16 +23,10 @@ A dark, multi-page portfolio built with TypeScript, React, Vinext, Vite, and Clo
 - [Live site](https://affan-shaikh-portfolio.sil6428-archtech.workers.dev)
 - [Source repository](https://github.com/sil6428/Portfolio.github.io)
 
-### SSIK website
-
-I built the public website for SSIK, an IT consulting business whose consulting team I am part of. The site presents the team’s IT services and gives prospective clients a clear path to contact the business.
-
-- [Live site](https://sil6428.github.io/SSIK-website/index.html)
-- [Source repository](https://github.com/sil6428/SSIK-website)
-
 ## Other projects
 
-- **Password Manager:** Python CLI with password generation, validation, and encrypted storage
+- **CICIDS2017 Reproduction:** Audited 2,830,743 network flows and measured how evaluation splits changed a Random Forest intrusion-detection result
+- **File Integrity Monitor:** Python and SHA-256 tool validated against 45 controlled filesystem changes and 7 automated tests
 - **Network Labs:** VLANs, trunking, DHCP, STP, inter-VLAN routing, and Cisco IOS routing practice
 - **Event Planner:** Node.js tool for adding, editing, and removing events
 
@@ -70,6 +64,7 @@ I built the public website for SSIK, an IT consulting business whose consulting 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=for-the-badge&logo=windows11&logoColor=white)
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflareworkers&logoColor=white)
+![Google Workspace](https://img.shields.io/badge/Google_Workspace-4285F4?style=for-the-badge&logo=googleworkspace&logoColor=white)
 ![Cloudflare D1](https://img.shields.io/badge/Cloudflare_D1-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Workers KV](https://img.shields.io/badge/Workers_KV-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -90,7 +85,7 @@ I built the public website for SSIK, an IT consulting business whose consulting 
 ## Public repositories
 
 - [Portfolio](https://github.com/sil6428/Portfolio.github.io)
-- [SSIK Website](https://github.com/sil6428/SSIK-website)
+- [CICIDS2017 Reproduction](https://github.com/sil6428/cicids2017-reproduction)
 - [Learning Log](https://github.com/sil6428/learning-log)
 
 <div align="center">
