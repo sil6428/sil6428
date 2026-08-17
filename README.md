@@ -26,7 +26,7 @@ A dark, multi-page portfolio built with TypeScript, React, Vinext, Vite, and Clo
 ## Other projects
 
 - **CICIDS2017 Reproduction:** Audited 2,830,743 network flows and measured how evaluation splits changed a Random Forest intrusion-detection result
-- **File Integrity Monitor:** Python and SHA-256 tool validated against 45 controlled filesystem changes and 7 automated tests
+- **[File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor):** Python and SHA-256 tool validated against 45 controlled filesystem changes and 7 automated tests
 - **Network Labs:** VLANs, trunking, DHCP, STP, inter-VLAN routing, and Cisco IOS routing practice
 - **Event Planner:** Node.js tool for adding, editing, and removing events
 
@@ -86,6 +86,7 @@ A dark, multi-page portfolio built with TypeScript, React, Vinext, Vite, and Clo
 
 - [Portfolio](https://github.com/sil6428/Portfolio.github.io)
 - [CICIDS2017 Reproduction](https://github.com/sil6428/cicids2017-reproduction)
+- [File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor)
 - [Learning Log](https://github.com/sil6428/learning-log)
 
 <div align="center">
