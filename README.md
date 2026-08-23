@@ -2,7 +2,7 @@
 
 ![Affan Shaikh](https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:2563EB,100:06B6D4&height=190&section=header&text=Affan%20Shaikh&fontSize=42&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Networking%20%7C%20Cybersecurity%20%7C%20Builder&descAlignY=58&descSize=17)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=1100&color=38BDF8&center=true&vCenter=true&width=850&lines=Networking+%26+Cybersecurity+at+Ontario+Tech;Testing+intrusion+detection+on+2.8M+network+flows;Building+Python+tools+for+file+integrity+monitoring;Managing+hosting+and+workspace+infrastructure)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=1100&color=38BDF8&center=true&vCenter=true&width=850&lines=Networking+%26+Cybersecurity+at+Ontario+Tech;Co-founded+SSIK+and+built+its+public+website;Testing+intrusion+detection+on+2.8M+network+flows;Building+Python+tools+for+file+integrity+monitoring;Managing+hosting+and+workspace+infrastructure)](https://git.io/typing-svg)
 
 [![Portfolio](https://img.shields.io/badge/VIEW_PORTFOLIO-06B6D4?style=for-the-badge)](https://affan-shaikh-portfolio.sil6428-archtech.workers.dev)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sil6428)
@@ -10,6 +10,13 @@
 </div>
 
 ## Building now
+
+### SSIK IT Consulting & Solutions
+
+I co-founded SSIK with Ghayas Sher, an Ontario Tech classmate, and participate in the consulting team. SSIK provides practical IT and cybersecurity consulting across security reviews, risk management, infrastructure, and policy. I independently designed and built the six-page public website and maintain its GitHub Pages deployment.
+
+- [SSIK website](https://sil6428.github.io/SSIK-website/index.html)
+- [Website source](https://github.com/sil6428/SSIK-website)
 
 ### Archtech
 
@@ -59,6 +66,7 @@ An interactive Three.js portfolio presented as a 3D room and desktop environment
 - [CICIDS2017 Reproduction](https://github.com/sil6428/cicids2017-reproduction)
 - [File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor)
 - [Learning Log](https://github.com/sil6428/learning-log)
+- [SSIK Website](https://github.com/sil6428/SSIK-website)
 
 <div align="center">
 
