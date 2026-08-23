@@ -13,7 +13,7 @@
 
 ### SSIK IT Consulting & Solutions
 
-I co-founded SSIK with Ghayas Sher, an Ontario Tech classmate, and participate in the consulting team. SSIK provides practical IT and cybersecurity consulting across security reviews, risk management, infrastructure, and policy. I independently designed and built the six-page public website and maintain its GitHub Pages deployment.
+I co-founded SSIK with Ghayas Sher, an Ontario Tech classmate. We share responsibility for consulting engagements, security-control assessment, privacy and regulatory research, and stakeholder-ready recommendations. I additionally designed and built the six-page public website and maintain its GitHub Pages deployment.
 
 - [SSIK website](https://sil6428.github.io/SSIK-website/index.html)
 - [Website source](https://github.com/sil6428/SSIK-website)
