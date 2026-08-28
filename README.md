@@ -13,7 +13,7 @@ I study Networking and IT Security at Ontario Tech University. My current work f
 
 - **[CICIDS2017 reproduction](https://github.com/sil6428/cicids2017-reproduction):** audited 2,830,743 network flows and measured a 78.79-point accuracy gap between random and source-file holdout evaluation.
 - **[File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor):** SHA-256 baseline and change-detection tool validated against 45 controlled filesystem events.
-- **[SSIK IT Consulting & Solutions](https://sil6428.github.io/SSIK-website/index.html):** co-founded with Ghayas Sher. We share service planning, security-control research, privacy research, and stakeholder communication. I built and maintain the public website.
+- **[SSIK IT Consulting & Solutions](https://sil6428.github.io/SSIK-website/index.html):** co-founded with Ghayas Sher. We share service planning, security-control research, privacy research, and stakeholder communication. I built the public website and completed a private, local-first intelligence platform with passive evidence collection, multi-workspace RBAC, durable jobs, approval-gated mock outreach, rescans, recovery controls, and 79 automated tests. The internal repository remains private.
 - **Archtech:** set up Google Workspace and manage website hosting and deployment for a developing nonprofit. The organization and source repository remain private while the team builds the site.
 - **[Interactive portfolio](https://github.com/sil6428/affan-portfolio):** a Three.js cyber-lab and simulated desktop hosted on Cloudflare Workers.
 
