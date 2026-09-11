@@ -7,11 +7,13 @@
 
 </div>
 
-I study Networking and IT Security at Ontario Tech University. My current work focuses on network defense, reproducible intrusion-detection research, and small Python security tools with testable evidence.
+I study Networking and IT Security at Ontario Tech University. My current work focuses on network defense, cloud identity and access policy, and small Python security systems with testable evidence.
 
 ## Current work
 
-- **[CICIDS2017 reproduction](https://github.com/sil6428/cicids2017-reproduction):** audited 2,830,743 network flows and measured a 78.79-point accuracy gap between random and source-file holdout evaluation.
+- **[Cloud IAM Policy Auditor](https://github.com/sil6428/cloud-iam-policy-auditor):** built 15 offline checks for risky AWS IAM identity and trust policies, with text, JSON, and SARIF evidence backed by 35 automated tests.
+- **P2P Messaging (private collaborative WIP):** implemented password-protected Ed25519/X25519 identities, signed peer cards, ChaCha20-Poly1305 messages, authenticated acknowledgements, bounded frames, and persistent replay rejection; 22 tests pass. It is an unaudited learning system without forward secrecy or NAT traversal.
+- **Secure File Transfer (private):** built authenticated TLS transfers with recipient isolation, resumable upload/download offsets, pre-download and receiver-side SHA-256 checks, tamper quarantine, and 14 automated tests.
 - **[File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor):** SHA-256 baseline and change-detection tool validated against 45 controlled filesystem events.
 - **[SSIK IT Consulting & Solutions](https://sil6428.github.io/SSIK-website/index.html):** co-founded with Ghayas Sher. We share service planning, security-control research, privacy research, and stakeholder communication. I built the public website and completed a private, local-first intelligence platform with passive evidence collection, multi-workspace RBAC, durable jobs, approval-gated mock outreach, rescans, recovery controls, and 79 automated tests. The internal repository remains private.
 - **Archtech:** set up Google Workspace and manage website hosting and deployment for a developing nonprofit. The organization and source repository remain private while the team builds the site.
@@ -28,14 +30,14 @@ I study Networking and IT Security at Ontario Tech University. My current work f
 ![VLANs and routing](https://img.shields.io/badge/VLANs%20%2F%20ROUTING-334155?style=for-the-badge)
 ![Intrusion detection](https://img.shields.io/badge/INTRUSION_DETECTION-6D28D9?style=for-the-badge)
 ![File integrity](https://img.shields.io/badge/FILE_INTEGRITY-6D28D9?style=for-the-badge)
+![AWS IAM](https://img.shields.io/badge/AWS_IAM-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Applied cryptography](https://img.shields.io/badge/APPLIED_CRYPTOGRAPHY-6D28D9?style=for-the-badge)
 
 ### Systems and evidence
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=for-the-badge&logo=windows11&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ### Project-specific delivery
@@ -46,6 +48,7 @@ I study Networking and IT Security at Ontario Tech University. My current work f
 
 ## Repositories
 
+- [Cloud IAM Policy Auditor](https://github.com/sil6428/cloud-iam-policy-auditor)
 - [CICIDS2017 Reproduction](https://github.com/sil6428/cicids2017-reproduction)
 - [File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor)
 - [Interactive Portfolio](https://github.com/sil6428/affan-portfolio)
