@@ -7,11 +7,10 @@
 
 </div>
 
-I study Networking and IT Security at Ontario Tech University. My current work focuses on network defense, cloud identity and access policy, and small Python security systems with testable evidence.
+I study Networking and IT Security at Ontario Tech University. My current work focuses on network defense, secure communications, and small Python security systems with testable evidence.
 
 ## Current work
 
-- **[Cloud IAM Policy Auditor](https://github.com/sil6428/cloud-iam-policy-auditor):** built 15 offline checks for risky AWS IAM identity and trust policies, with text, JSON, and SARIF evidence backed by 35 automated tests.
 - **P2P Messaging (private collaborative WIP):** implemented password-protected Ed25519/X25519 identities, signed peer cards, ChaCha20-Poly1305 messages, authenticated acknowledgements, bounded frames, and persistent replay rejection; 22 tests pass. It is an unaudited learning system without forward secrecy or NAT traversal.
 - **Secure File Transfer (private):** built authenticated TLS transfers with recipient isolation, resumable upload/download offsets, pre-download and receiver-side SHA-256 checks, tamper quarantine, and 14 automated tests.
 - **[File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor):** SHA-256 baseline and change-detection tool validated against 45 controlled filesystem events.
@@ -30,7 +29,6 @@ I study Networking and IT Security at Ontario Tech University. My current work f
 ![VLANs and routing](https://img.shields.io/badge/VLANs%20%2F%20ROUTING-334155?style=for-the-badge)
 ![Intrusion detection](https://img.shields.io/badge/INTRUSION_DETECTION-6D28D9?style=for-the-badge)
 ![File integrity](https://img.shields.io/badge/FILE_INTEGRITY-6D28D9?style=for-the-badge)
-![AWS IAM](https://img.shields.io/badge/AWS_IAM-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Applied cryptography](https://img.shields.io/badge/APPLIED_CRYPTOGRAPHY-6D28D9?style=for-the-badge)
 
 ### Systems and evidence
@@ -48,7 +46,6 @@ I study Networking and IT Security at Ontario Tech University. My current work f
 
 ## Repositories
 
-- [Cloud IAM Policy Auditor](https://github.com/sil6428/cloud-iam-policy-auditor)
 - [CICIDS2017 Reproduction](https://github.com/sil6428/cicids2017-reproduction)
 - [File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor)
 - [Interactive Portfolio](https://github.com/sil6428/affan-portfolio)
