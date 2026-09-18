@@ -2,21 +2,21 @@
 
 ![Affan Shaikh](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:0891B2&height=180&section=header&text=Affan%20Shaikh&fontSize=42&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Networking%20and%20IT%20Security&descAlignY=58&descSize=17)
 
-[![Portfolio](https://img.shields.io/badge/INTERACTIVE_PORTFOLIO-0891B2?style=for-the-badge)](https://affan-shaikh-portfolio.sil6428-archtech.workers.dev)
+[![Portfolio](https://img.shields.io/badge/INTERACTIVE_PORTFOLIO-0891B2?style=for-the-badge)](https://affan-shaikh.pages.dev)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sil6428)
 
 </div>
 
-I study Networking and IT Security at Ontario Tech University. My current work focuses on network defense, secure communications, and small Python security systems with testable evidence.
+I study Networking and IT Security at Ontario Tech University, with graduation expected in April 2028. My current work focuses on network defense, secure communications, and small Python security systems with testable evidence.
 
 ## Current work
 
-- **P2P Messaging (private collaborative WIP):** implemented password-protected Ed25519/X25519 identities, signed peer cards, ChaCha20-Poly1305 messages, authenticated acknowledgements, bounded frames, and persistent replay rejection; 22 tests pass. It is an unaudited learning system without forward secrecy or NAT traversal.
-- **Secure File Transfer (private):** built authenticated TLS transfers with recipient isolation, resumable upload/download offsets, pre-download and receiver-side SHA-256 checks, tamper quarantine, and 14 automated tests.
+- **[P2P Messaging](https://github.com/sil6428/P2P-messaging) (collaborative WIP):** co-developed password-protected Ed25519/X25519 identities, verified peer cards, ChaCha20-Poly1305 messages, encrypted local history, attachment-integrity references, and persistent replay rejection; 72 tests pass. It is an unaudited learning system without forward secrecy or NAT traversal.
+- **[Secure File Transfer](https://affan-shaikh.pages.dev/work/secure-file-transfer) (private source):** built authenticated TLS transfers with recipient isolation, resumable upload/download offsets, pre-download and receiver-side SHA-256 checks, tamper quarantine, and 14 automated tests.
 - **[File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor):** SHA-256 baseline and change-detection tool validated against 45 controlled filesystem events.
-- **[SSIK IT Consulting & Solutions](https://sil6428.github.io/SSIK-website/index.html):** co-founded with Ghayas Sher. We share service planning, security-control research, privacy research, and stakeholder communication. I built the public website and completed a private, local-first intelligence platform with passive evidence collection, multi-workspace RBAC, durable jobs, approval-gated mock outreach, rescans, recovery controls, and 79 automated tests. The internal repository remains private.
+- **[SSIK IT Consulting & Solutions](https://sil6428.github.io/SSIK-website/index.html):** co-founded with Ghayas Sher. We share service planning, security-control research, privacy research, and stakeholder communication. I built the public website and a private, local-first intelligence platform with passive evidence collection, multi-workspace RBAC, durable jobs, approval-gated mock outreach, rescans, recovery controls, and 110 passing tests. The internal repository remains private.
 - **Archtech:** set up Google Workspace and manage website hosting and deployment for a developing nonprofit. The organization and source repository remain private while the team builds the site.
-- **[Interactive portfolio](https://github.com/sil6428/affan-portfolio):** a Three.js cyber-lab and simulated desktop hosted on Cloudflare Workers.
+- **[Interactive portfolio](https://github.com/sil6428/affan-portfolio):** a Three.js cyber-lab and simulated desktop hosted on Cloudflare Pages.
 
 ## Technical focus
 
@@ -40,13 +40,13 @@ I study Networking and IT Security at Ontario Tech University. My current work f
 
 ### Project-specific delivery
 
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflareworkers&logoColor=white)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=for-the-badge&logo=cloudflarepages&logoColor=white)
 ![Google Workspace](https://img.shields.io/badge/Google_Workspace-4285F4?style=for-the-badge&logo=googleworkspace&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
 
 ## Repositories
 
-- [CICIDS2017 Reproduction](https://github.com/sil6428/cicids2017-reproduction)
+- [P2P Messaging](https://github.com/sil6428/P2P-messaging)
 - [File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor)
 - [Interactive Portfolio](https://github.com/sil6428/affan-portfolio)
 - [Learning Log](https://github.com/sil6428/learning-log)
