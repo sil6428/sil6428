@@ -7,10 +7,11 @@
 
 </div>
 
-I study Networking and IT Security at Ontario Tech University, with graduation expected in April 2028. My current work focuses on network defense, secure communications, and small Python security systems with testable evidence.
+I study Networking and IT Security at Ontario Tech University, with graduation expected in April 2028. My current work focuses on network defense, secure communications, and useful tools with testable evidence.
 
 ## Current work
 
+- **[OTNow](https://github.com/sil6428/OTNow):** built a local-first Chrome extension for Ontario Tech Canvas with grouped deadlines, moved-date detection, local reminders, course shortcuts, offline cache, and light/dark appearance. It uses two read-only Canvas endpoints, keeps course data in local Chrome storage, and passes 12 unit tests plus a release-package check.
 - **[P2P Messaging](https://github.com/sil6428/P2P-messaging) (collaborative WIP):** co-developed a local browser workspace with device unlock, verified peer conversations, authenticated replies, search and conversation controls over password-protected Ed25519/X25519 identities, ChaCha20-Poly1305 messages, encrypted history, attachment-integrity references, and persistent replay rejection; 75 tests pass. It is an unaudited learning system without forward secrecy, NAT traversal, or automatic file transfer.
 - **[Secure File Transfer](https://affan-shaikh.pages.dev/work/secure-file-transfer) (private source):** built authenticated TLS transfers with recipient isolation, resumable upload/download offsets, pre-download and receiver-side SHA-256 checks, tamper quarantine, and 14 automated tests.
 - **[File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor):** SHA-256 baseline and change-detection tool validated against 45 controlled filesystem events.
@@ -43,9 +44,11 @@ I study Networking and IT Security at Ontario Tech University, with graduation e
 ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=for-the-badge&logo=cloudflarepages&logoColor=white)
 ![Google Workspace](https://img.shields.io/badge/Google_Workspace-4285F4?style=for-the-badge&logo=googleworkspace&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![Chrome Extensions](https://img.shields.io/badge/Chrome_Extensions-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 
 ## Repositories
 
+- [OTNow](https://github.com/sil6428/OTNow)
 - [P2P Messaging](https://github.com/sil6428/P2P-messaging)
 - [File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor)
 - [Interactive Portfolio](https://github.com/sil6428/affan-portfolio)
