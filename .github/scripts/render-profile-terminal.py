@@ -98,11 +98,41 @@ FONT_BOLD = find_font(18, bold=True)
 FONT_SMALL = find_font(15)
 FONT_TINY = find_font(13)
 
-_probe = ImageDraw.Draw(Image.new("RGB", (1, 1)))
-for logo_size in range(15, 7, -1):
-    LOGO_FONT = find_font(logo_size, symbols=True)
-    if max(_probe.textlength(line, font=LOGO_FONT) for line in LOGO.splitlines()) <= 478:
-        break
+
+def draw_braille_logo(
+    draw: ImageDraw.ImageDraw,
+    x: int,
+    y: int,
+    color: str,
+) -> None:
+    """Render Unicode Braille deterministically without depending on host fonts."""
+    cell_width = 8
+    cell_height = 20
+    radius = 2
+    dot_positions = {
+        0: (2, 3),
+        1: (2, 7),
+        2: (2, 11),
+        3: (6, 3),
+        4: (6, 7),
+        5: (6, 11),
+        6: (2, 15),
+        7: (6, 15),
+    }
+    for row, line in enumerate(LOGO.splitlines()):
+        for column, character in enumerate(line):
+            codepoint = ord(character)
+            if not 0x2800 <= codepoint <= 0x28FF:
+                continue
+            pattern = codepoint - 0x2800
+            for bit, (dx, dy) in dot_positions.items():
+                if pattern & (1 << bit):
+                    dot_x = x + column * cell_width + dx
+                    dot_y = y + row * cell_height + dy
+                    draw.ellipse(
+                        (dot_x - radius, dot_y - radius, dot_x + radius, dot_y + radius),
+                        fill=color,
+                    )
 
 
 def blank() -> Image.Image:
@@ -173,11 +203,7 @@ def fastfetch_frame(stats: dict[str, str], row_count: int, cursor: bool = False)
     draw = ImageDraw.Draw(image)
     draw.text((28, 27), "affan@cyberglass ~ $ whoaml", font=FONT, fill=FG)
 
-    logo_y = 105
-    logo_step = max(23, LOGO_FONT.getbbox("Hg")[3] + 7)
-    for line in LOGO.splitlines():
-        draw.text((26, logo_y), line, font=LOGO_FONT, fill=FG)
-        logo_y += logo_step
+    draw_braille_logo(draw, 26, 118, FG)
 
     draw.text((548, 76), "affan@github", font=find_font(23, bold=True), fill=MINT)
     draw.line((548, 107, 955, 107), fill=TRACK, width=1)
