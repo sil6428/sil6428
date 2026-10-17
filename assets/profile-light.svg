@@ -493,27 +493,33 @@
     <circle cx="183.7" cy="226.4" r="1.65" fill="#1f2328"/>
     <circle cx="183.7" cy="230.0" r="1.65" fill="#1f2328"/>
     <circle cx="183.7" cy="233.6" r="1.65" fill="#1f2328"/>
-    <text x="40" y="276" fill="#59636e" font-size="13">the mark from my actual terminal</text>
+    <text x="40" y="276" fill="#59636e" font-size="13">guess the game</text>
 
     <text x="500" y="78" fill="#1f2328" font-size="31" font-weight="600">Affan Shaikh</text>
     <text x="500" y="107" fill="#137a48" font-size="15">Networking &amp; IT Security · Ontario Tech</text>
     <text x="500" y="143" fill="#59636e" font-size="15">I build useful tools, test them, then document</text>
     <text x="500" y="165" fill="#59636e" font-size="15">what actually happened.</text>
 
-    <rect x="500" y="195" width="455" height="91" rx="10" fill="#f6f8fa"/>
-    <text x="520" y="220" fill="#59636e" font-size="11">OTNOW</text>
-    <text x="520" y="248" fill="#1f2328" font-size="17">918 items</text>
-    <text x="520" y="270" fill="#59636e" font-size="12">13 opt-in installs</text>
+    <rect x="500" y="195" width="143" height="91" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="500" y="195" width="143" height="3" rx="2" fill="#b84f45"/>
+    <text x="518" y="220" fill="#59636e" font-size="11">OTNOW</text>
+    <text x="518" y="249" fill="#1f2328" font-size="20" font-weight="700">918</text>
+    <text x="561" y="249" fill="#59636e" font-size="12">items</text>
+    <text x="518" y="271" fill="#59636e" font-size="12">13 opt-in installs</text>
 
-    <line x1="675" y1="211" x2="675" y2="270" stroke="#d0d7de"/>
-    <text x="696" y="220" fill="#59636e" font-size="11">COMMUNITY</text>
-    <text x="696" y="248" fill="#1f2328" font-size="17">5.0 / 5</text>
-    <text x="696" y="270" fill="#59636e" font-size="12">5 reviews</text>
+    <rect x="654" y="195" width="143" height="91" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="654" y="195" width="143" height="3" rx="2" fill="#137a48"/>
+    <text x="672" y="220" fill="#59636e" font-size="11">COMMUNITY</text>
+    <text x="672" y="249" fill="#1f2328" font-size="20" font-weight="700">5.0</text>
+    <text x="713" y="249" fill="#59636e" font-size="12">/ 5</text>
+    <text x="672" y="271" fill="#59636e" font-size="12">5 reviews</text>
 
-    <line x1="834" y1="211" x2="834" y2="270" stroke="#d0d7de"/>
-    <text x="855" y="220" fill="#59636e" font-size="11">GITHUB</text>
-    <text x="855" y="248" fill="#1f2328" font-size="17">9 repos</text>
-    <text x="855" y="270" fill="#59636e" font-size="12">public work</text>
+    <rect x="808" y="195" width="147" height="91" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="808" y="195" width="147" height="3" rx="2" fill="#0969da"/>
+    <text x="826" y="220" fill="#59636e" font-size="11">GITHUB</text>
+    <text x="826" y="249" fill="#1f2328" font-size="20" font-weight="700">9</text>
+    <text x="843" y="249" fill="#59636e" font-size="12">public repos</text>
+    <text x="826" y="271" fill="#59636e" font-size="12">documented work</text>
 
     <text x="500" y="321" fill="#b84f45" font-size="14">$</text>
     <text x="518" y="321" fill="#1f2328" font-size="14">currently: networks · security · systems</text>
