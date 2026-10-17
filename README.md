@@ -9,6 +9,8 @@
 
 [portfolio](https://affan-shaikh.pages.dev) · [projects](https://affan-shaikh.pages.dev/log) · [LinkedIn](https://www.linkedin.com/in/sil6428) · [Ko-fi](https://ko-fi.com/sil6428)
 
+<img src="https://komarev.com/ghpvc/?username=sil6428&label=profile%20views&color=30363d&style=flat-square&abbreviated=true" alt="Profile views">
+
 </div>
 
 I’m Affan. I study Networking and IT Security at Ontario Tech, and I usually start building something after the normal way of doing it annoys me for long enough.

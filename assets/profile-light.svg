@@ -502,24 +502,24 @@
 
     <rect x="500" y="195" width="143" height="91" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
     <rect x="500" y="195" width="143" height="3" rx="2" fill="#b84f45"/>
-    <text x="518" y="220" fill="#59636e" font-size="11">OTNOW</text>
+    <text x="518" y="220" fill="#59636e" font-size="11">IMPACT</text>
     <text x="518" y="249" fill="#1f2328" font-size="20" font-weight="700">918</text>
     <text x="561" y="249" fill="#59636e" font-size="12">items</text>
     <text x="518" y="271" fill="#59636e" font-size="12">13 opt-in installs</text>
 
     <rect x="654" y="195" width="143" height="91" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
     <rect x="654" y="195" width="143" height="3" rx="2" fill="#137a48"/>
-    <text x="672" y="220" fill="#59636e" font-size="11">COMMUNITY</text>
+    <text x="672" y="220" fill="#59636e" font-size="11">TRUST</text>
     <text x="672" y="249" fill="#1f2328" font-size="20" font-weight="700">5.0</text>
     <text x="713" y="249" fill="#59636e" font-size="12">/ 5</text>
     <text x="672" y="271" fill="#59636e" font-size="12">5 reviews</text>
 
     <rect x="808" y="195" width="147" height="91" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
     <rect x="808" y="195" width="147" height="3" rx="2" fill="#0969da"/>
-    <text x="826" y="220" fill="#59636e" font-size="11">GITHUB</text>
-    <text x="826" y="249" fill="#1f2328" font-size="20" font-weight="700">9</text>
-    <text x="843" y="249" fill="#59636e" font-size="12">public repos</text>
-    <text x="826" y="271" fill="#59636e" font-size="12">documented work</text>
+    <text x="826" y="220" fill="#59636e" font-size="11">RIGOR</text>
+    <text x="826" y="249" fill="#1f2328" font-size="20" font-weight="700">72</text>
+    <text x="852" y="249" fill="#59636e" font-size="12">tests</text>
+    <text x="826" y="271" fill="#59636e" font-size="12">P2P test suite</text>
 
     <text x="500" y="321" fill="#b84f45" font-size="14">$</text>
     <text x="518" y="321" fill="#1f2328" font-size="14">currently: networks · security · systems</text>

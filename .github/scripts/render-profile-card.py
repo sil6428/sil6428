@@ -31,6 +31,7 @@ THEMES = {
         "soft": "#161b22",
         "mint": "#8fffc1",
         "coral": "#e16b61",
+        "blue": "#79c0ff",
     },
     "light": {
         "page": "#ffffff",
@@ -41,6 +42,7 @@ THEMES = {
         "soft": "#f6f8fa",
         "mint": "#137a48",
         "coral": "#b84f45",
+        "blue": "#0969da",
     },
 }
 
@@ -59,20 +61,17 @@ def request_json(url: str, token: str | None = None) -> dict:
 
 
 def load_stats() -> dict[str, str]:
-    owner = os.environ.get("PROFILE_OWNER", "sil6428")
-    token = os.environ.get("GH_STATS_TOKEN")
     stats_url = os.environ.get(
         "OTNOW_STATS_URL",
         "https://otnow-stats.sil6428-archtech.workers.dev/api/stats",
     )
-    github = request_json(f"https://api.github.com/users/{owner}", token)
     otnow = request_json(stats_url).get("summary", {})
     return {
-        "repos": f"{github.get('public_repos', 0):,}",
         "items": f"{otnow.get('totalItems', 0):,}",
         "installs": f"{otnow.get('reportingInstallations', 0):,}",
         "rating": f"{float(otnow.get('averageRating', 0)):.1f}",
         "reviews": f"{otnow.get('ratingCount', 0):,}",
+        "tests": "72",
     }
 
 
@@ -125,27 +124,33 @@ def render(theme_name: str, stats: dict[str, str]) -> str:
     <text x="32" y="38" fill="{theme['muted']}" font-size="14">~/affan</text>
     <text x="968" y="38" text-anchor="end" fill="{theme['mint']}" font-size="13">open to co-op</text>
     {circles}
-    <text x="40" y="276" fill="{theme['muted']}" font-size="13">the mark from my actual terminal</text>
+    <text x="40" y="276" fill="{theme['muted']}" font-size="13">guess the game</text>
 
     <text x="500" y="78" fill="{theme['text']}" font-size="31" font-weight="600">Affan Shaikh</text>
     <text x="500" y="107" fill="{theme['mint']}" font-size="15">Networking &amp; IT Security · Ontario Tech</text>
     <text x="500" y="143" fill="{theme['muted']}" font-size="15">I build useful tools, test them, then document</text>
     <text x="500" y="165" fill="{theme['muted']}" font-size="15">what actually happened.</text>
 
-    <rect x="500" y="195" width="455" height="91" rx="10" fill="{theme['soft']}"/>
-    <text x="520" y="220" fill="{theme['muted']}" font-size="11">OTNOW</text>
-    <text x="520" y="248" fill="{theme['text']}" font-size="17">{stats['items']} items</text>
-    <text x="520" y="270" fill="{theme['muted']}" font-size="12">{stats['installs']} opt-in installs</text>
+    <rect x="500" y="195" width="143" height="91" rx="10" fill="{theme['soft']}" stroke="{theme['border']}"/>
+    <rect x="500" y="195" width="143" height="3" rx="2" fill="{theme['coral']}"/>
+    <text x="518" y="220" fill="{theme['muted']}" font-size="11">IMPACT</text>
+    <text x="518" y="249" fill="{theme['text']}" font-size="20" font-weight="700">{stats['items']}</text>
+    <text x="561" y="249" fill="{theme['muted']}" font-size="12">items</text>
+    <text x="518" y="271" fill="{theme['muted']}" font-size="12">{stats['installs']} opt-in installs</text>
 
-    <line x1="675" y1="211" x2="675" y2="270" stroke="{theme['border']}"/>
-    <text x="696" y="220" fill="{theme['muted']}" font-size="11">COMMUNITY</text>
-    <text x="696" y="248" fill="{theme['text']}" font-size="17">{stats['rating']} / 5</text>
-    <text x="696" y="270" fill="{theme['muted']}" font-size="12">{stats['reviews']} reviews</text>
+    <rect x="654" y="195" width="143" height="91" rx="10" fill="{theme['soft']}" stroke="{theme['border']}"/>
+    <rect x="654" y="195" width="143" height="3" rx="2" fill="{theme['mint']}"/>
+    <text x="672" y="220" fill="{theme['muted']}" font-size="11">TRUST</text>
+    <text x="672" y="249" fill="{theme['text']}" font-size="20" font-weight="700">{stats['rating']}</text>
+    <text x="713" y="249" fill="{theme['muted']}" font-size="12">/ 5</text>
+    <text x="672" y="271" fill="{theme['muted']}" font-size="12">{stats['reviews']} reviews</text>
 
-    <line x1="834" y1="211" x2="834" y2="270" stroke="{theme['border']}"/>
-    <text x="855" y="220" fill="{theme['muted']}" font-size="11">GITHUB</text>
-    <text x="855" y="248" fill="{theme['text']}" font-size="17">{stats['repos']} repos</text>
-    <text x="855" y="270" fill="{theme['muted']}" font-size="12">public work</text>
+    <rect x="808" y="195" width="147" height="91" rx="10" fill="{theme['soft']}" stroke="{theme['border']}"/>
+    <rect x="808" y="195" width="147" height="3" rx="2" fill="{theme['blue']}"/>
+    <text x="826" y="220" fill="{theme['muted']}" font-size="11">RIGOR</text>
+    <text x="826" y="249" fill="{theme['text']}" font-size="20" font-weight="700">{stats['tests']}</text>
+    <text x="852" y="249" fill="{theme['muted']}" font-size="12">tests</text>
+    <text x="826" y="271" fill="{theme['muted']}" font-size="12">P2P test suite</text>
 
     <text x="500" y="321" fill="{theme['coral']}" font-size="14">$</text>
     <text x="518" y="321" fill="{theme['text']}" font-size="14">currently: networks · security · systems</text>
