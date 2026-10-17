@@ -1,10 +1,10 @@
-name: Refresh CyberGlass terminal
+name: Refresh profile card
 
 on:
   push:
     branches: [main]
     paths:
-      - ".github/scripts/render-profile-terminal.py"
+      - ".github/scripts/render-profile-card.py"
       - ".github/workflows/profile-stats.yml"
   schedule:
     - cron: "17 */6 * * *"
@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: cyberglass-profile-terminal
+  group: profile-card
   cancel-in-progress: true
 
 jobs:
@@ -28,21 +28,16 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
 
-      - name: Create renderer environment
-        run: |
-          python3 -m venv .venv
-          .venv/bin/python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - name: Render profile card
+        run: python3 .github/scripts/render-profile-card.py
 
-      - name: Render CyberGlass terminal
-        run: .venv/bin/python .github/scripts/render-profile-terminal.py
-
-      - name: Publish changed terminal
+      - name: Publish changed card
         run: |
-          if git diff --quiet -- assets/cyberglass-whoami.gif assets/cyberglass-terminal-static.png; then
+          if git diff --quiet -- assets/profile-dark.svg assets/profile-light.svg; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/cyberglass-whoami.gif assets/cyberglass-terminal-static.png
-          git commit -m "Refresh CyberGlass terminal [skip ci]"
+          git add assets/profile-dark.svg assets/profile-light.svg
+          git commit -m "Refresh profile card [skip ci]"
           git push
