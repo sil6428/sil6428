@@ -21,7 +21,7 @@ I’m Affan. I study Networking and IT Security at Ontario Tech, and I usually s
 
 **[File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor)** — a small SHA-256 monitoring engine with a local Integrity Desk. It caught 45 of 45 controlled changes across a 500-file fixture set.
 
-**[Interactive portfolio](https://github.com/sil6428/affan-interactive-lab)** — a fast, accessible case-file portfolio with an optional Three.js cyber-lab hidden behind it.
+**[Interactive portfolio](https://github.com/sil6428/affan-interactive-lab)** — an interactive Three.js cyber-lab with readable project case studies and a public learning log.
 
 ## `~/right-now`
 
