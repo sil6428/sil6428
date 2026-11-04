@@ -17,7 +17,7 @@ I’m Affan. I study Networking and IT Security at Ontario Tech, and I usually s
 
 **[OTNow](https://github.com/sil6428/OTNow)** — Canvas, but less scavenger hunt. A private-by-default browser extension that groups deadlines, notices moved dates, sends local reminders and keeps a useful offline cache.
 
-**[P2P Messaging](https://github.com/sil6428/P2P-messaging)** — learning applied cryptography by making it argue with a network. Verified peers, protected Ed25519/X25519 identities, authenticated encryption, replay protection and 72 automated tests—with the unfinished security properties documented too.
+**[P2P Messaging](https://github.com/sil6428/P2P-messaging)** — learning applied cryptography by making it argue with a network. Verified peers, protected Ed25519/X25519 identities, authenticated encryption, replay protection—with the unfinished security properties documented too.
 
 **[File Integrity Monitor](https://github.com/sil6428/file-integrity-monitor)** — a small SHA-256 monitoring engine with a local Integrity Desk. It caught 45 of 45 controlled changes across a 500-file fixture set.
 
